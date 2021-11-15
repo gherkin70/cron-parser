@@ -15,6 +15,8 @@
    `java -jar Application.jar "* * * * * /usr/bin/find"`
 
 #### Import and run in Intellij:
-1. Download IntelliJ: https://www.jetbrains.com/idea/download
-2. Open existing project in IntelliJ (as gradle project) and select cron-parser root
-3. In Application.kt select play -> modify run configuration -> add cron expression in 'program arguments' -> run ApplicationKt
+1. Install Java jdk (minimum version 8)
+2. Download IntelliJ: https://www.jetbrains.com/idea/download
+3. Open existing project in IntelliJ (as gradle project) and select cron-parser 
+   1. In project structure, ensure the SDK is set to the root directory of the Java jdk
+4. In Application.kt select play -> modify run configuration -> add cron expression in 'program arguments' -> run ApplicationKt
